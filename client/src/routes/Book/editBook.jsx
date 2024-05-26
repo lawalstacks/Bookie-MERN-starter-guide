@@ -193,4 +193,4 @@ function editBook() {
   );
 }
 
-export default editBook;
+export default EditBook;
