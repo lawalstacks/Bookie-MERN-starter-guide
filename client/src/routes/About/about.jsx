@@ -1,7 +1,9 @@
 import React from 'react'
 
-function About(){                                  return (                                                  <div>                                    
-	<h1>About</h1>
+function About() {
+  return (
+    <div>
+      <h1>About</h1>
       <p>Demo project showcasing the use of NodeJs, Express & MongoDB.</p>
       <p>That's pretty much it.</p>
 
@@ -54,6 +56,9 @@ function About(){                                  return (                     
         </tbody>
       </table>
 
-	</div>
-)
-                                                  }                                                 export default About;
+
+    </div>
+  )
+}
+
+export default About
