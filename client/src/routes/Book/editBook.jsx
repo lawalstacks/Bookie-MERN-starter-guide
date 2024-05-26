@@ -85,7 +85,7 @@ function editBook() {
     }
   };
 
-  	const removeBook = async (e) => {
+  const removeBook = async (e) => {
     e.preventDefault();
 
     try {
@@ -193,4 +193,4 @@ function editBook() {
   );
 }
 
-export default EditBook;
+export default editBook;

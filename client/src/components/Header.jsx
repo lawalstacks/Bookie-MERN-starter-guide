@@ -5,8 +5,8 @@ import logo from "../assets/react.svg";
 function Header() {
   return (
     <header>
-      <Link to="/" className='logo'>
-        <img src={logo} alt='ReactJs' /> ReactJs
+      <Link to="/" className="logo">
+        <img src={logo} alt="ReactJs" /> ReactJs
       </Link>
 
       <nav>

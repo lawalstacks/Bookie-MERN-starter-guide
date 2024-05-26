@@ -64,8 +64,8 @@ function createBook() {
     if(e.target.files && e.target.files[0]) {
       setImage(URL.createObjectURL(e.target.files[0]));
       setThumbnail(e.target.files[0]);
-    } 
-  };
+    }
+  }
 
   return (
     <div>
