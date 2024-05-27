@@ -1,7 +1,9 @@
 # Bookie- A MERN Starter guide.
 ------------------------------
 
- <a href=''><strong>View<strong/></a>
+<div><a href=''><strong>View<strong/></a>
+</div>
+<br/>
 Built with *Mongodb* *Express* *Nodejs* *React*
 
 # Description
