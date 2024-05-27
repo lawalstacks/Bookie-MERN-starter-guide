@@ -14,15 +14,18 @@ D - Delete
 --------------
 1. clone this repository
 
-2. Cd into client and run
+2. Cd into client and install vite 
+   `npm I vite`
+   Do
   `npm run dev`
+3. create .env.local file
+   add `VITE_URL_SERVER = http://localhost:{yourserverport}` 
+
 3. To run server side create a new .env file
- first install dotenv, mongoose, cors, express
- `npm i dotenv cors mongoose express`
-4. connect your database on mongoose create url inyour .env use in your mongoose connection function
-5. lastly `npm run dev`
+    include your mongoDB url. `MONGOURI = {yoururl}`
+4. in Server directory lastly `npm run dev`
 
 
-# Version : 2.0
+Version : 2.0
 
  
