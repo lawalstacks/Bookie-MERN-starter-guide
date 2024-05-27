@@ -2,7 +2,8 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 function Book() {
-  const baseUrl = "http://localhost:8000/api/books";
+  const serverUrl = import.meta.env.VITE_SERVER_URL;
+  const baseUrl = `${serverUrl}/api/books`;
   const [data, setData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
